@@ -1,0 +1,6 @@
+PROJECT_NAME: "My First FastAPI+PyTorch Test Project"
+API_PREFIX: "/api/test"
+MODEL:
+    PATH: "ml_models/catvdog.pth"
+    # DEVICE: "cpu" | "cuda:0" | "cuda:1" | ...
+    DEVICE: "cpu"
